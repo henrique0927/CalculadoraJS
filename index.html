@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <script src="./main.js"></script>
     <title>Calculadora</title>
 </head>
@@ -22,17 +22,17 @@
             </div>
             <div>
                 <label for="numOne">Primeiro Número:</label>
-                <input type="number" name="numOne" id="numOne">
+                <input type="number" autofocus name="numOne" id="numOne">
             </div>
             <div>
-                <label for="numTwo">Primeiro Número:</label>
+                <label for="numTwo">Segundo Número:</label>
                 <input type="number" name="numTwo" id="numTwo">
             </div>
             <div>
                 <button type="submit" onclick="fazerCalculo()">Calcular</button>
             </div>
             <div id="resultado">
-                <p>O resultado foi: <span id="span-resultado"></span></p>
+                <p>Resultado: <span id="span-resultado"></span></p>
             </div>
         </div>
     </div>
