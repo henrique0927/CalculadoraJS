@@ -1,0 +1,79 @@
+@import "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* No changes needed in the first two sections */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    margin: auto;
+    padding: 1%;
+    box-shadow: 0px 1.5px 6px 0px rgb(150, 149, 149);
+    border-radius: 10px;
+    width: 17vw;
+    height: 55vh;
+}
+
+.conteudo {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 35px;
+}
+
+select, input {
+    margin-top: 3%;
+    padding: 3%;
+    border-radius: 5px;
+    outline: none;
+    width: 15vw;
+    border: 0.2px solid black;
+}
+
+label {
+    font-size: 1.5rem;
+    color: rgb(236, 25, 25);
+    font-weight: 700;
+}
+
+h1 {
+    margin-bottom: 5%;
+}
+
+button {
+    width: 15vw;
+    padding: 4%;
+    color: white;
+    border-radius: 5px;
+    background-color: blue;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 0px solid rgba(255, 255, 255, 0.575);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(13, 13, 192);
+}
+
+#resultado {
+    text-align: start;
+    margin-top: 0%;
+    line-break: auto;
+}
+
+p {
+    font-size: 1.2rem;
+}
