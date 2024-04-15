@@ -33,7 +33,7 @@ body {
 
 select {
     margin-top: 3%;
-    padding: 3%;
+    text-align: justify;
     border-radius: 5px;
     outline: none;
     height: 5vh;
@@ -84,12 +84,12 @@ button:hover {
 }
 
 p {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     line-break: auto;
 }
 
 span {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 600;
     color: rgb(37, 93, 196);
 }
