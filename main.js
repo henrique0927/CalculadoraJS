@@ -35,6 +35,10 @@ function fazerCalculo() {
     // Mostrando o valor da operação no console.
     // Para ter valor certeza de qual operação está sendo chamada. 
 
+    // Checa para validar se o usuário não inseriu caracteres que não sejam números.
+    if (isNaN(numOne) || isNaN(numTwo)) {
+        resultado = "Digite Somente Números."
+    }
     document.getElementById('span-resultado').textContent = resultado;
     // Selecionando o elemento <span> pelo ID e mostrando na tela o valor do resultado.
 }
